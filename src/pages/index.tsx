@@ -15,7 +15,7 @@ export default function Home() {
             <a href="#" className="py-5 hover:text-orange">Tools</a>
             <a href="#" className="py-5 hover:text-orange">Contact</a>
           </div>
-          <div className="md:hidden flex flex-col gap-1 mr-2">
+          <div className="md:hidden flex flex-col gap-1 mr-5">
             <span className="block h-1 bg-black w-[25px] rounded-full"></span>
             <span className="block h-1 bg-black w-[25px] rounded-full"></span>
             <span className="block h-1 bg-black w-[25px] rounded-full"></span>
@@ -50,15 +50,19 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="bg-black text-white p-10 flex justify-between">
-        <div className="w-full flex flex-col justify-between gap-24">
-          <h2 className="text-2xl uppercase font-bold">Behind a good office<br />there is always a good <span className="text-[#ffa500]">software</span>.</h2>
-          <span className="text-sm">&copy; 2023 Binary Sails</span>
+      <footer className="bg-black text-white p-10 flex flex-col gap-5 w-full">
+        <div className="flex flex-col md:flex-row justify-between gap-5 w-full">
+          <div className="w-full flex flex-col justify-between gap-24">
+            <h2 className="text-2xl uppercase font-bold">Behind a good office<br />there is always a good <span className="text-[#ffa500]">software</span>.</h2>
+          </div>
+          <div className="flex flex-col gap-1 w-52">
+            <a className="hover:text-orange" href="#">Terms & Conditions</a>
+            <a className="hover:text-orange" href="#">Privacy Policy</a>
+            <a className="hover:text-orange" href="#">FAQ</a>
+          </div>
         </div>
-        <div className="flex flex-col gap-1 w-52">
-          <a className="hover:text-orange" href="#">Terms & Conditions</a>
-          <a className="hover:text-orange" href="#">Privacy Policy</a>
-          <a className="hover:text-orange" href="#">FAQ</a>
+        <div className="w-full">
+          <span className="text-sm">&copy; 2023 Binary Sails</span>
         </div>
       </footer>
 
